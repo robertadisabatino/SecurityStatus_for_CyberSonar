@@ -1,0 +1,77 @@
+<?php
+return [
+    'title_status' => 'Stato di sicurezza per',
+    'overview_desc' => 'Una panoramica generale sul livello di sicurezza del dominio analizzato, basato sui dati raccolti:',
+    'risk_score' => 'RISK SCORE',
+    'sec_scores' => 'PUNTEGGI DI SICUREZZA',
+    'sec_scores_desc' => 'Indicatori specifici relativi ad aspetti chiave della sicurezza come configurazioni DNS, HTTPS, email e altro.',
+    'vulnerabilities' => 'VULNERABILITÀ',
+    'vuln_desc' => 'Elenco dettagliato delle vulnerabilità rilevate all\'interno del dominio analizzato, suddivise per categoria e livello di gravità. Questa sezione aiuta a identificare con precisione le aree più esposte a potenziali minacce informatiche, fornendo un quadro completo dei rischi attuali.',
+    'close_btn' => 'Chiudi',
+    'email_certs' => 'EMAIL & CERTIFICATI',
+    'email_certs_desc' => 'Informazioni sulla sicurezza delle email e sulla gestione dei certificati digitali. Essenziali per garantire integrità e autenticità.',
+    'email_security' => 'Email Security',
+    'certificates' => 'Certificati',
+    'cert_active' => 'Certificati attivi',
+    'cert_expired' => 'Certificati scaduti',
+    'network_infra' => 'RETE & INFRASTRUTTURE',
+    'network_infra_desc' => 'Dettagli sulla rete del dominio, inclusi IP unici e utilizzo di CDN. Indica l’esposizione delle infrastrutture online.',
+    'unique_ip' => 'IP Unici',
+    'cdn_none' => 'Nessun asset CDN trovato.',
+    'summary' => 'SOMMARIO',
+    'status' => 'Stato',
+    'status_critical' => 'Estremamente critico',
+    'total_score' => 'Punteggio totale',
+    'vulnerabilities_title' => 'Vulnerabilità',
+    'vuln_total' => 'Totali',
+    'vuln_critical_active' => 'Critiche attive',
+    'vuln_high_passive' => 'Alte passive',
+    'vuln_medium' => 'Medie',
+    'vuln_informative' => 'Informative',
+    'vuln_low' => 'Basso livello',
+    'services_exposure' => 'Esposizione dei Servizi',
+    'assets_total' => 'Asset totali',
+    'ipv4_unique' => 'IPv4 unici',
+    'ipv6_unique' => 'IPv6 unici',
+    'exposed_ports' => 'Porte esposte',
+    'data_leaks' => 'Fughe di Dati',
+    'domain_stealer' => 'domain_stealer',
+    'potential_stealer' => 'potential_stealer',
+    'other_stealer' => 'other_stealer',
+    'vip_leaks' => 'Fughe VIP/generali',
+    'cert_tech' => 'Certificati e Tecnologie',
+    'expired' => 'Scaduti',
+    'waf_active' => 'WAF attivi',
+    'cdn_absent' => 'assente',
+    'email_security_title' => 'Sicurezza Email',
+    'spoofing_possible' => 'possibile',
+    'blacklist_none' => 'nessuna rilevazione',
+    'summary_text_1' => 'Il dominio cybersonar.demo presenta una situazione di sicurezza estremamente critica con un punteggio di rischio pari a 99 su 100.',
+    'summary_text_2' => 'Sono state rilevate complessivamente 162 vulnerabilità, di cui 2 critiche attive e 18 vulnerabilità passive di alto livello.',
+    'summary_text_3' => 'L’esposizione dei servizi è molto alta, con 102 asset totali, 30 indirizzi IPv4 e 23 IPv6 unici, e numerose porte esposte tra cui le più frequenti sono la 80 e la 443.',
+    'summary_text_4' => 'Le fughe di dati ammontano a 838, con una fuga di tipo domain_stealer ancora non risolta e 826 potenziali fughe pericolose.',
+    'summary_text_5' => 'Sul fronte tecnologico, sono presenti 15 certificati attivi e 18 scaduti, 4 asset protetti da Web Application Firewall (WAF), mentre non è utilizzato alcun Content Delivery Network (CDN), aumentando il rischio di attacchi.',
+    'summary_text_6' => 'La sicurezza email è vulnerabile allo spoofing nonostante una politica DMARC impostata su quarantine. La combinazione di questi fattori richiede interventi urgenti per mitigare i rischi e migliorare la sicurezza complessiva del dominio.',
+    'alert_critical' => '⚠️ Situazione critica: vulnerabilità attive, esposizione elevata e fughe di dati indicano la necessità di interventi urgenti per mettere in sicurezza il dominio.',
+
+
+    // navbar
+
+    'scopri' => 'SCOPRI',
+
+
+    'punteggi' => 'Punteggi',
+    'vulnerabilita' => 'Vulnerabilità',
+    'email_certificati' => 'E-mail & Certificati',
+    'rete' => 'Rete',
+    'summary' => 'Sommario',
+
+    // footer
+
+    'copyr' => 'Tutti i diritti riservati.',
+
+    // welcome
+    'title' => 'Perché è fondamentale conoscere lo stato di sicurezza della tua azienda?',
+    'paragraph_1' => 'In un contesto digitale sempre più esposto a minacce informatiche, conoscere lo stato di sicurezza della propria azienda non è solo una buona pratica, ma una vera e propria necessità strategica. Vulnerabilità non rilevate, configurazioni errate o certificati scaduti possono rappresentare punti d’ingresso per attacchi che compromettono dati sensibili, operatività e reputazione aziendale.',
+    'cta_button' => 'SCOPRI IL CASO CYBERSONAR',
+];

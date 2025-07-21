@@ -1,0 +1,77 @@
+<?php
+return [
+    'title_status' => 'Security status for',
+    'overview_desc' => 'A general overview of the security level of the analyzed domain, based on the collected data:',
+    'risk_score' => 'RISK SCORE',
+    'sec_scores' => 'SECURITY SCORES',
+    'sec_scores_desc' => 'Specific indicators related to key security aspects such as DNS configurations, HTTPS, email, and more.',
+    'vulnerabilities' => 'VULNERABILITIES',
+    'vuln_desc' => 'Detailed list of vulnerabilities detected within the analyzed domain, divided by category and severity level. This section helps precisely identify the areas most exposed to potential cyber threats, providing a comprehensive risk picture.',
+        'close_btn' => 'Close',
+    'email_certs' => 'EMAIL & CERTIFICATES',
+    'email_certs_desc' => 'Information on email security and digital certificate management. Essential to ensure integrity and authenticity.',
+    'email_security' => 'Email Security',
+    'certificates' => 'Certificates',
+    'cert_active' => 'Active certificates',
+    'cert_expired' => 'Expired certificates',
+    'network_infra' => 'NETWORK & INFRASTRUCTURE',
+    'network_infra_desc' => 'Details about the domain\'s network, including unique IPs and CDN usage. Indicates online infrastructure exposure.',
+    'unique_ip' => 'Unique IPs',
+    'cdn_none' => 'No CDN assets found.',
+    'summary' => 'SUMMARY',
+    'status' => 'Status',
+    'status_critical' => 'Extremely critical',
+    'total_score' => 'Total score',
+    'vulnerabilities_title' => 'Vulnerabilities',
+    'vuln_total' => 'Total',
+    'vuln_critical_active' => 'Active critical',
+    'vuln_high_passive' => 'High passive',
+    'vuln_medium' => 'Medium',
+    'vuln_informative' => 'Informative',
+    'vuln_low' => 'Low level',
+    'services_exposure' => 'Services exposure',
+    'assets_total' => 'Total assets',
+    'ipv4_unique' => 'Unique IPv4',
+    'ipv6_unique' => 'Unique IPv6',
+    'exposed_ports' => 'Exposed ports',
+    'data_leaks' => 'Data leaks',
+    'domain_stealer' => 'domain_stealer',
+    'potential_stealer' => 'potential_stealer',
+    'other_stealer' => 'other_stealer',
+    'vip_leaks' => 'VIP/general leaks',
+    'cert_tech' => 'Certificates and Technologies',
+    'expired' => 'Expired',
+    'waf_active' => 'Active WAFs',
+    'cdn_absent' => 'absent',
+    'email_security_title' => 'Email Security',
+    'spoofing_possible' => 'possible',
+    'blacklist_none' => 'no detection',
+    'summary_text_1' => 'The domain cybersonar.demo presents an extremely critical security situation with a risk score of 99 out of 100.',
+    'summary_text_2' => 'A total of 162 vulnerabilities have been detected, including 2 active critical and 18 high-level passive vulnerabilities.',
+    'summary_text_3' => 'Service exposure is very high, with 102 total assets, 30 IPv4 addresses and 23 unique IPv6, and numerous exposed ports, the most frequent being 80 and 443.',
+    'summary_text_4' => 'Data leaks amount to 838, with a domain_stealer leak still unresolved and 826 potential dangerous leaks.',
+    'summary_text_5' => 'On the technology front, there are 15 active certificates and 18 expired, 4 assets protected by Web Application Firewall (WAF), while no Content Delivery Network (CDN) is used, increasing the risk of attacks.',
+    'summary_text_6' => 'Email security is vulnerable to spoofing despite a DMARC policy set to quarantine. The combination of these factors requires urgent interventions to mitigate risks and improve the overall domain security.',
+    'alert_critical' => '⚠️ Critical situation: active vulnerabilities, high exposure, and data leaks indicate the need for urgent interventions to secure the domain.',
+
+    // navbar
+
+    'scopri' => 'FIND OUT',
+
+
+    'punteggi' => 'Scores',
+    'vulnerabilita' => 'Vulnerabilities',
+    'email_certificati' => 'Email & Certificates',
+    'rete' => 'Network',
+    'summary' => 'Summary',
+
+        // footer
+
+    'copyr' => 'All rights reserved.',
+
+    // welcome
+    'title' => 'Why is it essential to know your company’s security status?',
+    'paragraph_1' => 'In an increasingly digital landscape exposed to cyber threats, understanding your company’s security status is not just a best practice—it’s a strategic necessity. Undetected vulnerabilities, misconfigurations, or expired certificates can become entry points for attacks that compromise sensitive data, business operations, and company reputation.',
+    'cta_button' => 'DISCOVER THE CYBERSONAR CASE',
+
+];
